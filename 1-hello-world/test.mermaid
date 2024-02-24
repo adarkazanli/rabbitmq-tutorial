@@ -1,0 +1,5 @@
+erDiagram
+Customer ||--o{ Order : places
+Order ||--|{ LineItem : contains
+Order ||--|{ DeliveryAddress : uses
+DeliveryAddress }|--|| Country : "belongs to"
